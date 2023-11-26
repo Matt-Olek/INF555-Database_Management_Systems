@@ -1,0 +1,36 @@
+.body {
+    background-color: #f2f2f2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-image: url("http://www.istockphoto.com/resources/images/PhotoFTLP/img_67931483.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ephesis {
+    font-family: "Ephesis", cursive;
+}
+
+.big_title {
+    font-size: 100px;
+}
+.expandable-div {
+    width: 100%;
+    height: 98%;
+    transition: width 0.3s, height 0.3s;
+    background-color: white;
+}
+
+.expandable-div:hover {
+    width: 99%;
+    height: 95%;
+    background-color: rgba(144, 238, 144, 0.048);
+}
+
+.shadow-lg {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
